@@ -1,0 +1,174 @@
+#PanoDeFundo {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: 300px;
+}
+
+#afastar {
+    padding-left: 66px;
+    margin-left: 69px;
+}
+#icon{
+    width: 35px;
+    position: relative;
+    left: 197px;
+    top: -7px;
+    display: inline-block;
+}
+#media{
+    float: right;
+    position: absolute;
+    margin-left: 306px;
+    top: 2px;
+}
+.min{
+    width: 150px;
+    position: absolute;
+    margin-top: -62px;
+    margin-left: -123px;
+}
+ul#album-foto{
+    list-style: none;
+    display: flex;
+    margin-left: -300px;
+    float: left;
+        
+}
+
+ul li#espaco{
+    padding: 219px;
+    margin-top: -88px;
+}
+#text{
+    color: red;
+    font-size: 20px;
+
+}
+#foto_not_sinopse{
+    width: 375px;
+    height: 286px;
+    margin-left: 101px;
+}
+
+.example {
+    color: #FFF;
+}
+    .example-item {
+        width: 35%;
+        display: inline-block;
+        margin-left: -74px;
+        margin-top: 29px;
+    }
+
+
+
+
+
+#alinhar ul li{
+    float: left;
+    
+}
+#tamanho{
+    
+    width: 126px;
+margin-left: 93px;
+margin-top: -514px;
+}
+
+
+
+
+ .mySlides {
+    display: none;
+}
+
+
+
+figure {
+    text-align: center;
+}
+
+.w3-col {
+    float: left;
+}
+
+.s4 {
+    width: 33.33333%;
+}
+
+.w3-content {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+.w3-container {
+    padding: 0.01em 16px;
+}
+
+.w3-container:after,
+.w3-panel:after,
+.w3-row:after,
+.w3-row-padding:after,
+.w3-topnav:after,
+.w3-clear:after,
+.w3-btn-group:before,
+.w3-btn-group:after,
+.w3-btn-bar:before,
+.w3-btn-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-row-padding {
+    padding: 0 8px;
+}
+
+.w3-row-padding>.w3-col {
+    padding: 0 8px;
+}
+
+.w3-section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+[class*="w3-border-"] {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.w3-border-red,
+.w3-hover-border-red:hover {
+    border-color: #f44336 !important;
+}
+
+.w3-hover-shadow {
+    transition: background-color .3s, color .15s, box-shadow .3s, opacity 0.3s;
+}
+
+.w3-hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+
+
+pre {
+    font-family: Consolas, Menlo, monospace;
+    font-size: 1em;
+    white-space: pre-wrap;
+}
+
+#tam-video {
+    width: 465px;
+    height: 290px;
+
+}
+
+#min_video {
+    width: 100px;
+    height: 76px;
+    margin-left: 29px;
+}

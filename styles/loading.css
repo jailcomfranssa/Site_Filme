@@ -1,0 +1,116 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+
+}
+
+#status {
+    width: 922px;
+    height: 532px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin: -266px 0 0 -460px;
+    background: url("../gif/logo2.gif")center no-repeat;
+
+
+
+}
+
+.preload {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo1 {
+    width: 300px;
+    height: 70px;
+    margin: 272px auto 50px auto;
+    font-size: 50px;
+    text-shadow: -1px 2px 2px #000000;
+    text-align: center;
+    color: azure;
+}
+
+.loader-frame {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+}
+
+.loader1,
+.loader {
+    position: absolute;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.loader2,
+.loader {
+    position: absolute;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.loader1 {
+    width: 70px;
+    height: 70px;
+    border-top: 5px solid azure;
+    border-bottom: 5px solid azure;
+    animation: clockwlsespin 2s linear 3;
+}
+
+.loader2 {
+    width: 60px;
+    height: 60px;
+    border-left: 5px solid darkturquoise;
+    border-right: 5px solid darkturquoise;
+    top: 5px;
+    left: 5px;
+    animation: anticlockwlsespin 2s linear 3;
+}
+
+@keyframes clockwlsespin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes anticlockwlsespin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,26 @@
+/* Lista os fimes lançamentos na pagina de index é lista os Filmes pesquisados  */
+.example {
+    color: #FFF;
+}
+    .example-item {
+    width: 19%;
+    height: 310px;
+    margin-bottom: 149px;
+    display: inline-block;
+    margin-left: 56px;
+    
+    }
+    #tam{
+        width: 112%;
+        height: 111%;
+        /* margin-left: -33%; */
+    }
+    
+    .link{
+        margin-top: -17px;
+        position: absolute;
+        /* margin-left: -74px; */
+        margin-left: 3px;
+        width: 270px;
+
+    }
